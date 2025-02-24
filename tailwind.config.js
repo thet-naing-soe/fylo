@@ -1,8 +1,6 @@
-const { variants, darkMode } = require("../website-projects/fylo/tailwind.config");
-
 module.exports = {
   content: ["./*.html"],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
